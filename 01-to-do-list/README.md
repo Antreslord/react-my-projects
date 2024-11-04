@@ -1,8 +1,20 @@
-# React + Vite
+# To Do List 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Enunciado:
 
-Currently, two official plugins are available:
+Desarrollar una lista de tareas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades:
+
+:ballot_box_with_check: Agregar Tareas
+- Eliminar Tareas
+- Guardar y Recuperar las Tareas del localStorage
+- Contador de Tareas (Cuantas tareas se han registrado)
+
+* Marcar como tareas Completadas
+* mostrar una lista de tareas cumplidas y sin cumplir 
+
+## Objetivos:
+
+- uso de los Hooks **useState** y **useEffect**
+

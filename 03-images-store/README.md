@@ -7,8 +7,10 @@
 - Persistencia: Guardar el historial de búsqueda en localStorage para que esté disponible tras recargar la página.
 
 # Objetivos:
-
 - Practicar con los hooks useState y useEffect.
 - Aprender a hacer llamadas a una API externa (puedes usar una API de imágenes como Unsplash).
 - Manejar eventos de formulario.
 - Trabajar con localStorage para persistir datos.
+
+# Herramientas
+- URL: `https://api.unsplash.com/search/photos?query=${query}`
