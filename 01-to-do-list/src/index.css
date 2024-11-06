@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,8 +19,11 @@
 
 body {
   margin: 0;
-  display: grid;
-  place-items: center;
-  min-width: 320px;
+  display: flex;
+  place-items: start;
+  width: 100%;
   min-height: 100vh;
+}
+body div{
+  width: 100%;
 }

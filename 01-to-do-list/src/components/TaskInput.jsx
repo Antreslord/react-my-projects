@@ -8,7 +8,7 @@ export function TaskInput({ task, setTask, addTaskToTaskList }){
 
     return (
         <form onSubmit={addTaskToTaskList}>
-            <input type="text" onChange={handleChange} value={task} placeholder="Nombre de la tarea"/>
+            <input type="text" onChange={handleChange} value={task} className="p-2 rounded-lg " placeholder="Nombre de la tarea"/>
             <button type="submit" hidden></button>
         </form>
     )
