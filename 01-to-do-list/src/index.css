@@ -27,3 +27,7 @@ body {
 body div{
   width: 100%;
 }
+p strong {
+  padding: 0;
+  margin: 0;
+}

@@ -17,4 +17,7 @@ Desarrollar una lista de tareas
 ## Objetivos:
 
 - uso de los Hooks **useState** y **useEffect**
+- uso de los **customHooks**
+- uso de una función **reducer** y **useReducer**
+- uso de un **context** y **useContext**
 
