@@ -13,4 +13,6 @@
 - Trabajar con localStorage para persistir datos.
 
 # Herramientas
-- URL: `https://api.unsplash.com/search/photos?query=${query}`
+- URL:`https://api.unsplash.com/search/photos?query=${query}&client_id=${keyAuthorized}`
+
+
